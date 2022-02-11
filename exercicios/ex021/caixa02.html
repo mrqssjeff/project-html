@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(206, 111, 206);
+            margin: 0px;
+        }
+        header{
+            background-color: aqua;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: gray; 
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.411);
+        }
+        nav > a{
+            text-decoration: none;
+            color: blueviolet;
+            font-weight: bold
+            ;
+        }     
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        article{
+            background-color: antiquewhite;
+            padding: 5px;
+        }
+        main{
+            background-color: aquamarine;
+            padding: 10px;
+            margin: 10px;
+            border: 20px;
+            }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>Mangás</h2>
+                <p>One Piece, Bleach.</p>
+                <aside>
+                    <p>Poema de Tite Kubo</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Jeff Marques</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
