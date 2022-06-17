@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+h1{
+    color: red;
+    font-size: 200px;
+}
+
+p#first{
+    font-size: 2em;
+    font-style: italic;
+}
+
+img:hover{
+    background-color: gold;
+}
+
+.bacon{
+    background-color: green;
+}
+
+.mushroom{
+    background-color: red;
+}

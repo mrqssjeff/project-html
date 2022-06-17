@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: #9898C9;
+}
+
+h1{
+    color: #2E2E3D;
+}
+
+h3{
+    color: #2E2E3D;
+}
+
+hr{      
+    border-color: #111440;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;    
+    width: 9%;
+}
