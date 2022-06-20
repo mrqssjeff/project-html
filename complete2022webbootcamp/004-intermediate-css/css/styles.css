@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+
+body{
+    margin: 0;
+    text-align: center;    
+}
+
+
+h1{
+    margin-top: 0;
+}
+
+.top-container{
+    background-color: #9898C9;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+
+}
+
+.bottom-container{
+    
+}
+
+.top-cloud{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 400px;
+    top: 20px;
+
+}
+
+.bottom-cloud{
+    width: 100px;
+    height: 100px;
+    position: absolute; 
+    left: 400px;
+    bottom: 200px;
+}
+
+.gothic{
+    width: 200px;
+    height: 300px;
+}
